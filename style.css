@@ -11,3 +11,89 @@
 body {
     font-family: 'Mulish', sans-serif;
 }
+
+section {
+    background: #F9F4FB;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+section h1 {
+    margin-top: 1.7rem;
+
+    color: #B52184;
+    font-size: 3.2rem;
+    font-weight: 900;
+}
+
+section p {
+    margin-bottom: 3.5rem;
+
+    color: #312D64;
+    font-size: 2.0rem;
+    font-weight: 600;
+}
+
+#arrow {
+    margin-bottom: 9.3rem;
+}
+
+main {
+    background: linear-gradient(96deg, #343193 0%, #302C63 99.68%);
+
+    display: grid;
+}
+
+.container {
+    margin: 2.5rem 5.0rem 2.5rem;
+    padding: 2.6rem;
+    border-radius: 2.0rem;
+
+    background: #FFF;
+}
+
+main .container:first-of-type {
+    margin-top: 5.0rem;
+}
+
+main .container:last-of-type {
+    margin-bottom: 5.0rem;
+}
+
+.container h2 {
+    margin: 3.3rem 0 2.0rem 0;
+
+    color: #B52184;
+    font-size: 2.9rem;
+    font-weight: 900;
+}
+
+.container p {
+    color: #312D64;
+    font-size: 1.6rem;
+    font-weight: 600;
+}
+
+form {
+    padding: 8rem 4rem 6.5rem;
+
+    background: #F9F4FB;
+}
+
+form h2{
+    color: #B52184;
+    font-size: 3.2rem;
+    font-weight: 900;
+}
+
+footer {
+    padding: 3.0rem;
+
+    background: linear-gradient(96deg, #343193 0%, #302C63 99.68%);
+    color: #FFF;
+    text-align: center;
+    font-size: 1.9rem;
+    font-weight: 600;
+}
