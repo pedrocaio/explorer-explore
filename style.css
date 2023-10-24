@@ -41,13 +41,16 @@ section p {
 }
 
 main {
+    padding: 0 5rem;
+
     background: linear-gradient(96deg, #343193 0%, #302C63 99.68%);
 
     display: grid;
+    grid-template-rows: repeat(3);
+    gap: 5rem;
 }
 
 .container {
-    margin: 2.5rem 5.0rem 2.5rem;
     padding: 2.6rem;
     border-radius: 2.0rem;
 
